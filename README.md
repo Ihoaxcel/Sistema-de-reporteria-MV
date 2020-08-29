@@ -1,3 +1,7 @@
+# Sistema web de reportería
+
+_Poryecto que integra reportes de una herramienta BI con un sistema web
+
 ## Comenzando 🚀
 
 _Tan solo descargar en .zip o clonar el repositorio con la dirección
@@ -36,3 +40,6 @@ _Ingresar al localhost para correr el programa_
 _Los PDF de más información son copias_
 
 _El acceso a los reportes esta denegado_
+
+
+
