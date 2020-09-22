@@ -10,14 +10,13 @@ _Tan solo descargar la carpeta del proyecto en formato ZIP o clonar el repositor
 
 ### Pre-requisitos 📋
 
-_Servidor XAMPP_
-_Instalar servidor XAMPP:_
+_Servidor XAMPP:_
+
 ```
  https://www.ionos.es/digitalguide/servidores/herramientas/instala-tu-servidor-local-xampp-en-unos-pocos-pasos/
 ```
 
-_Framework Laravel_
-_Instalar servidor Laravel: _
+_Framework Laravel en XAMPP: _
 ```
 https://www.alexmilla.net/instalar-paso-a-paso-laravel-bajo-xampp-en-windows/
 ```
@@ -31,25 +30,30 @@ https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/editor-de-codigo/
 
 ### Despliegue 🔧
 
-_Crear un proyecto con Laravel, seguir la siguiente guía de creación de un proyecto en Laravel_
+* Descargar el proyecto del repositorio de GITHUB o clonar si se tiene las herramientas de clonación
+
+* Crear un proyecto con Laravel, seguir la siguiente guía de creación de un proyecto en Laravel:
 
 ```
-Crear proyecto en Laravel: https://desarrolloweb.com/articulos/crear-proyecto-laravel-composer.html
+https://desarrolloweb.com/articulos/crear-proyecto-laravel-composer.html
 ```
 
-_Ejemplo de nombre del proyecto: reporteria_
+* Ejemplo de nombre del proyecto: reporteria
 
-_Dentro del proyecto creado en Laravel reporteria descomprimir el archivo .zip_
+* Dentro del proyecto creado en Laravel reporteria descomprimir el archivo Sistema-de-reporteria-MV-master.zip, descargado anteriormente.
 
-_Remplazar los archivos existentes por los descomprimidos_
+* En caso de clonar el proyecto copiar todos los archivos del directorio Sistema web de reportería en la dirección del proyecto en XAMPP.
 
-_Inicializar el servidor XAMPP_
 
-_Abrir un buscador_
+* Remplazar los archivos existentes por los descomprimidos
 
-_Ingresar al "localhost/reporteria", o en caso de haber creado un proyecto con nombre diferente en lugar de reportería poner el nombre que se ha dado al proyecto_
+* Inicializar el servidor XAMPP
 
-_Si todo sale bien el proyecto debe mostrar la siguiente imagen principal_
+* Abrir un buscador
+
+* Ingresar al "localhost/reporteria", o en caso de haber creado un proyecto con nombre diferente en lugar de reportería poner el nombre que se ha dado al proyecto
+
+* Si todo sale bien el proyecto debe mostrar la siguiente imagen principal
 
 ![Preview](https://github.com/Ihoaxcel/Sistema-de-reporteria-MV/blob/master/Sistema%20web%20de%20reportería/public/imagenes/imagenDeFondoProyecto.PNG)
 
