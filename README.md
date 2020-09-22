@@ -51,7 +51,7 @@ _Ingresar al "localhost/reporteria", o en caso de haber creado un proyecto con n
 
 _Si todo sale bien el proyecto debe mostrar la siguiente imagen principal_
 
-![Preview](https://github.com/Ihoaxcel/Sistema-de-reporteria-MV/blob/master/Sistema%20web%20de%20reportería/public/imagenes/imagenDeFondoProyecto.png)
+![Preview](https://github.com/Ihoaxcel/Sistema-de-reporteria-MV/blob/master/Sistema%20web%20de%20reportería/public/imagenes/imagenDeFondoProyecto.PNG)
 
 ## Construido con 🛠️
 
