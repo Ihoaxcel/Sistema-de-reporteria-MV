@@ -16,7 +16,7 @@ _Servidor XAMPP:_
  https://www.ionos.es/digitalguide/servidores/herramientas/instala-tu-servidor-local-xampp-en-unos-pocos-pasos/
 ```
 
-_Framework Laravel en XAMPP: _
+_Framework Laravel en XAMPP:_
 ```
 https://www.alexmilla.net/instalar-paso-a-paso-laravel-bajo-xampp-en-windows/
 ```
