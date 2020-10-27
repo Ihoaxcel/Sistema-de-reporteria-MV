@@ -20,9 +20,8 @@
         <li class="lisubmenu"><a onclick="sendUrl12();">Tasas de interés</a></li>
     </ul>
 </li>
-
 <div class="subMenuLateral">
-    <ul class="submenu1">
+    <li class="submenu1 activado">
             <li class="">
                 <img class="icono1 izquierdo material-icons" src="{{ URL::asset('/imagenes/radar_icono1.ico') }}">
                 <p class="texto1">Financiera</p>
@@ -73,16 +72,14 @@
             </li>
             
   
-    </ul>
+    </li>
 </div>
 
 
 
 @endsection
-
-
 @section('contenido')
     <!--<h1 id="capitulo">DESDE MERCADO</h1>-->
-    <iframe id="iframeID" name="iframeID" width="95.6%" height="680px" style="background-image: url(../public/imagenes/radar_fondo_capitulos2.png);">
+    <iframe id="iframeID" name="iframeID" width="100%" height="680px" style="background-image: url(../public/imagenes/radar_fondo_capitulos2.png);background-size: 100% 100%;background-position: 30px 110px;">
     </iframe>
 @endsection

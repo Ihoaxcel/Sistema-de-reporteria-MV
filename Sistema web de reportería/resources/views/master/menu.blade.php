@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <meta http-equiv="Expires" content="0">
-  <meta http-equiv="Last-Modified" content="0">
-  <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
-  <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -19,78 +18,84 @@
     <title>RADAR</title>
 
 </head>
-<body onload="checkForUpdate();">
-<div class="principal-contenedor">
-    <div class="contenedor_menu" id="contenedor_menu">
-        <center>@yield('logoCentral')</center>
-                
-        <ul class="menu">   
-                @yield('menu')
-                
+<body >
+<div class="card">
+    <div class="card-body">
+        <div class="principal-contenedor">
+            <div class="contenedor_menu" id="contenedor_menu">
+                <center>@yield('logoCentral')</center>
+                        
+                <ul class="menu">   
+                        @yield('menu')
+                        
+                        <li>
+                            <a class="rutaCap" href="#ventana2" data-toggle="modal">
+                                <img class="icono izquierdo material-icons" src="{{ URL::asset('/imagenes/radar_icono6.ico') }}">
+                            </a>
+                            <p class="texto"><a href="#ventana2" data-toggle="modal">Manual de usuario</a></p>        
+                        
+                        </li>
 
-                <li>
-                    <a class="rutaCap" href="#ventana2" data-toggle="modal">
-                        <img class="icono izquierdo material-icons" src="{{ URL::asset('/imagenes/radar_icono6.ico') }}">
-                    </a>
-                    <p class="texto"><a href="#ventana2" data-toggle="modal">Manual de usuario</a></p>        
-                
-                </li>
-
-                <li>
-                    <a class="rutaCap" href="#ventana1" data-toggle="modal">
-                        <img class="icono izquierdo material-icons" src="{{ URL::asset('/imagenes/cerrar.png') }}">
-                    </a>
-                    <p class="texto"><a href="#ventana1" data-toggle="modal">Cerrar sesión</a></p>        
-                
-                </li>
-                
-        </ul>
-    </div>
-</div>
-
-
-<div class="pantalla_central">
-<center><img class="logorfd" id="logorfd" src="{{ URL::asset('/imagenes/radar-logo-prueba.png') }}">
-</center>
-<br><br>
-        
-        <!--LLAMAR AL COMPONENTE DE VISUALIZACIÓN IFRAME-->
-        <div id="control">
-            @yield('contenido')
+                        <li>
+                            <a class="rutaCap" href="#ventana1" data-toggle="modal">
+                                <img class="icono izquierdo material-icons" src="{{ URL::asset('/imagenes/cerrar.png') }}">
+                            </a>
+                            <p class="texto"><a href="#ventana1" data-toggle="modal">Cerrar sesión</a></p>        
+                        
+                        </li>
+                        
+                </ul>
+            </div>
         </div>
 
-    <div class="pie_radar2">
-        <footer>
-        <div class="row">
-		<div class="col-md-4 contenedorFooter">
+
+
+
+
+
+
+        <div class="pantalla_central">
+            <div id="control">
+                @yield('contenido')
+            </div>
+        </div>
+
+        <div class="pie_radar2">
+                <footer>
+                <div class="row">
+                    <div class="col-md-4 contenedorFooter">
                         <img class="footerLogo" src="{{ URL::asset('/imagenes/logo-white.png') }}">
-                </div>
-                <div class="col-md-4 contenedorFooter">
-                <center>
-                <img class="contenidoRFD img1" src="{{ URL::asset('/imagenes/icn_location.png') }}"><p class="textoFooter">Pasaje El Jardín E10-06 y Av. 6 de Diciembre</p>
-                <img class="contenidoRFD img2" src="{{ URL::asset('/imagenes/icn_phone.png') }}" ><p class="textoFooter"> (593-2) 333-2446 / 333-3091 Ext. 104 y 105</p>
-                <img class="contenidoRFD img3" src="{{ URL::asset('/imagenes/icn_email.png') }}" ><p class="textoFooter">operaciones@rfd.org.ec</p >
-                </center>
-                </div>
-	        <div class="col-md-4 contenedorFooter">
+                    </div>
+                    <div class="col-md-4 contenedorFooter">
                         <center>
-                        <a href="https://www.facebook.com/rfdecuador" target="_blank">
-                        <img class="redesSociales"  src="{{ URL::asset('/imagenes/icn_facebook.png') }}" src="images/icn_facebook.png" class="social"></a> 
-                        <a href="https://twitter.com/rfdecuador" target="_blank">
-                        <img class="redesSociales"  src="{{ URL::asset('/imagenes/icn_twitter.png') }}" class="social"></a> 
-                        <a href="http://www.youtube.com/c/RedDeInstitucionesFinancierasDeDesarrollo" target="_blank">
-                        <img class="redesSociales"  src="{{ URL::asset('/imagenes/icn_youtube.png') }}" class="social"></a> 
-                        <a href="https://ec.linkedin.com/company/rfdecuador" target="_blank">
-                        <img class="redesSociales"  src="{{ URL::asset('/imagenes/icn_linkedin.png') }}" class="social"></a>
+                        <img class="contenidoRFD img1" src="{{ URL::asset('/imagenes/icn_location.png') }}"><p class="textoFooter">Pasaje El Jardín E10-06 y Av. 6 de Diciembre</p>
+                        <img class="contenidoRFD img2" src="{{ URL::asset('/imagenes/icn_phone.png') }}" ><p class="textoFooter"> (593-2) 333-2446 / 333-3091 Ext. 104 y 105</p>
+                        <img class="contenidoRFD img3" src="{{ URL::asset('/imagenes/icn_email.png') }}" ><p class="textoFooter">operaciones@rfd.org.ec</p >
                         </center>
-                        <p style='font-size:.7em; text-align:center'>Este contenido es propiedad de la Red de Instituciones Financieras de Desarrollo. Si está pensando en hacer uso del mismo, por favor, cite la fuente. Todos los derechos reservados ®</p>
+                    </div>
+                    <div class="col-md-4 contenedorFooter">
+                                <center>
+                                <a href="https://www.facebook.com/rfdecuador" target="_blank">
+                                <img class="redesSociales"  src="{{ URL::asset('/imagenes/icn_facebook.png') }}" src="images/icn_facebook.png" class="social"></a> 
+                                <a href="https://twitter.com/rfdecuador" target="_blank">
+                                <img class="redesSociales"  src="{{ URL::asset('/imagenes/icn_twitter.png') }}" class="social"></a> 
+                                <a href="http://www.youtube.com/c/RedDeInstitucionesFinancierasDeDesarrollo" target="_blank">
+                                <img class="redesSociales"  src="{{ URL::asset('/imagenes/icn_youtube.png') }}" class="social"></a> 
+                                <a href="https://ec.linkedin.com/company/rfdecuador" target="_blank">
+                                <img class="redesSociales"  src="{{ URL::asset('/imagenes/icn_linkedin.png') }}" class="social"></a>
+                                </center>
+                                <p style='font-size:.7em; text-align:center'>Este contenido es propiedad de la Red de Instituciones Financieras de Desarrollo. Si está pensando en hacer uso del mismo, por favor, cite la fuente. Todos los derechos reservados ®</p>
+                    </div>
                 </div>
-        </div>
-	    </footer>
+                </footer>
+            </div>
     </div>
 </div>
+
+
+
 <!--VENTANA EMERGENTE-->
-<div class="modal" id= "ventana1" data-backdrop="static">
+<!--<div class="modal" id= "ventana1" data-backdrop="static">
         <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                         <div class="modal-header">
@@ -148,9 +153,7 @@ function updateApplication(event)
     window.location.reload();
 }
     
-</script>
-
-
+</script>-->
 
 
 
